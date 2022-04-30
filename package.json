@@ -1,0 +1,15 @@
+{
+  "name": "lizing-creditation",
+  "version": "1.0.0",
+  "homepage": "https://leasing-creditation.github.io/react-gh-pages",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
